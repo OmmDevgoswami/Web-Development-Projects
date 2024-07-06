@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Clock </title>
+    <link rel="icon" href="./Logo.png" type="image/x-icon">
+    <link href="./clock.css" rel="stylesheet">
+    <script type="text/javascript" src="./clock.js"></script>
+</head>
+<body>
+    <div id="time">
+        <div class="circle">
+            <div class="dots sec_dot" style="--clr: #6D435A">
+                <svg>
+                    <circle cx="120" cy="120" r="120" id="ss"></circle>
+                </svg>
+            </div>
+        </div>
+        <div class="circle">
+            <div class="dots min_dot" style="--clr: #B1EDE8">
+                <svg>
+                    <circle cx="100" cy="100" r="100" id="mm"></circle>
+                </svg>
+            </div>
+        </div>
+        <div class="circle">
+            <div class="dots hr_dot" style="--clr: #FF6978">
+                <svg>
+                    <circle cx="80" cy="80" r="80" id="hh"></circle>
+                </svg>
+            </div>
+        </div>
+    </div>
+        <div class="timeBx">
+            <div id="hours"> 00 </div>
+            <div id="minutes"> 00 </div>
+            <div id="seconds"> 00 </div>
+            <div class="ap">
+                <div id="ampm">AM</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
